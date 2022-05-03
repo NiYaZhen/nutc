@@ -120,10 +120,25 @@ header{
     height:250px;
     width: 20%;
     background-color: hotpink;
+
 }
 
 footer{
-    height:100px;
+    height:150px;
     width: 100%;
     background-color: aqua;
+}
+
+#footer_01 ul{
+    display: flex;
+}
+#footer_02 {
+    display: flex;
+    margin: 5px;
+}
+
+#footer_03{
+    height:15px;
+    background-color: black;
+    color: white;
 }
