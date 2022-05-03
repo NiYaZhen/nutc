@@ -3,7 +3,8 @@
     padding: 0px;
     list-style: none;
     text-decoration:none;
-    font-size:12px
+    font-size:12px;
+
 
 }
 
@@ -13,16 +14,21 @@ ul{
 
 header{
     background-color: red;
-    height: 100px;
+    height: 150px;
     width: 100%;
-    justify-content: center;
+
+    
+}
+#header_1{
+    height: 30px;
+    width: 100%;
     display: flex;
 }
 
 #header_01{
     background-color: black;
     height: 30px;
-    width: 100%;
+    width: 20%;
 }
 
 #header_01 ul{
@@ -32,24 +38,56 @@ header{
     color:white;
 }
 #header_02{
-    background-color: black;
+    background-color: aqua;
     height: 30px;
-    width: 100%;
+    width: 60%;
+}
+#header_03{
+    background-color: yellow;
+    height: 30px;
+    width: 20%;
     
 }
 
-#header_02 ul{
-    
-    padding:0px 10px;
+#header_03 ul{
     display: flex;
     color:white;
 }
+
+#header_text ul{
+    height: 30px;
+    color:white;
+    display: flex;
+    font-size:18px;
+}
+
+#header_2{
+    height: 120px;
+    width: 100%;
+    display: flex;
+}
+
+#header_pic{
+    width: 50%;
+
+}
+
+#header_pic_img{
+    height: 90px;
+}
+
 #content{
 
     height: 250px;
     width: 100%;
     background-color: blue;
+    display: flex;
+    justify-content:center;
 
+}
+
+#content_pic_img{
+    height: 250px;
 }
 
 #sideber{
@@ -61,14 +99,27 @@ header{
 
 #sideber_01{
     height:250px;
-    width: 50%;
+    width: 30%;
     background-color: crimson;
+
 }
+#sideber_01_b{
+    font-size: 18px;
+}
+
+
 
 #sideber_02{
     height:250px;
     width: 50%;
     background-color: purple;
+    display: flex;
+}
+
+#sideber_03{
+    height:250px;
+    width: 20%;
+    background-color: hotpink;
 }
 
 footer{
